@@ -5,8 +5,21 @@
     <title>Zont sosi</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>Как поставить бота?</header>
+    <main>
+      <p>1. Перейти по ссылке https://www.tampermonkey.net/ и поставить тамперманки</p>
+      <p>2. Нажать на иконку расширения и выбрать "создать новый скрипт"</p>
+      <p>3. Вставить код скрипта. Сохранить ctrl+s. Все.</p>
+    </main>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('code').textContent)">Копировать</button>
+      <pre id="code" style="background:#eee; padding:10px; overflow:auto;"></pre>
+    </main>
+
+    <script>
+      fetch('tm.js').then(r => r.text()).then(t => document.getElementById('code').textContent = t);
+    </script>
+
     <footer></footer>
   </body>
 </html>
