@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         ZynthioticTanks
 // @namespace    nullptr
-// @version      1.0
+// @version      1.3
 // @author       nullptr
 // @description  zont sosi
 // @match        https://genesistanki.online/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=genesistanki.online
 // @run-at       document-start
-// @resource     myjs https://raw.githubusercontent.com/typedef73/ZynthioticTanks/refs/heads/main/client.js?v=1.2
+// @resource     myjs https://raw.githubusercontent.com/typedef73/ZynthioticTanks/refs/heads/main/client.js?v=1.3
 // @grant        GM_getResourceText
 // @updateURL    https://raw.githubusercontent.com/typedef73/ZynthioticTanks/refs/heads/main/tm.js
 // @downloadURL  https://raw.githubusercontent.com/typedef73/ZynthioticTanks/refs/heads/main/tm.js
